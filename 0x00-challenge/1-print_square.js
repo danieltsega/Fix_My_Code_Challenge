@@ -14,7 +14,7 @@ if (process.argv.length <= 2) {
     process.exit(1)
 }
 
-size = parseInt(process.argv[2])
+const size = parseInt(process.argv[2]);
 
 if (isNaN(size)) {
     process.stderr.write("Invalid size\n");
